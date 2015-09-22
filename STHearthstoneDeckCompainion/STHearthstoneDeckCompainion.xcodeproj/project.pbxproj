@@ -1,0 +1,570 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8403E53C1B874C1800A85F9A /* STjsonData.m in Sources */ = {isa = PBXBuildFile; fileRef = 8403E53B1B874C1800A85F9A /* STjsonData.m */; };
+		8417750C1B26800300200722 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417750B1B26800300200722 /* main.m */; };
+		8417750F1B26800300200722 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8417750E1B26800300200722 /* AppDelegate.m */; };
+		841775151B26800300200722 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841775131B26800300200722 /* Main.storyboard */; };
+		841775171B26800300200722 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841775161B26800300200722 /* Images.xcassets */; };
+		8417751A1B26800300200722 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 841775181B26800300200722 /* LaunchScreen.xib */; };
+		841775261B26800400200722 /* STHearthstoneDeckCompainionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 841775251B26800400200722 /* STHearthstoneDeckCompainionTests.m */; };
+		841775311B26804B00200722 /* STHsCardData.m in Sources */ = {isa = PBXBuildFile; fileRef = 841775301B26804B00200722 /* STHsCardData.m */; };
+		841775331B268CED00200722 /* AllSets.json in Resources */ = {isa = PBXBuildFile; fileRef = 841775321B268CED00200722 /* AllSets.json */; };
+		844DEC021BAD141C00A249F1 /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844DEC011BAD141C00A249F1 /* CustomCell.xib */; };
+		844DEC051BAD16B200A249F1 /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 844DEC041BAD16B200A249F1 /* CustomCell.m */; };
+		84789FC71BB0ED1F00544116 /* DeckLibraryTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84789FC61BB0ED1F00544116 /* DeckLibraryTableViewController.m */; settings = {ASSET_TAGS = (); }; };
+		848696221B82723900D7E9A4 /* STDeckClassSelectTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 848696211B82723900D7E9A4 /* STDeckClassSelectTableViewController.m */; };
+		848F1FF41B82D913005D2978 /* Druid.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848F1FEB1B82D913005D2978 /* Druid.jpeg */; };
+		848F1FF51B82D913005D2978 /* Hunter.png in Resources */ = {isa = PBXBuildFile; fileRef = 848F1FEC1B82D913005D2978 /* Hunter.png */; };
+		848F1FF61B82D913005D2978 /* mage.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848F1FED1B82D913005D2978 /* mage.jpg */; };
+		848F1FF71B82D913005D2978 /* Paladin.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848F1FEE1B82D913005D2978 /* Paladin.jpeg */; };
+		848F1FF81B82D913005D2978 /* Priest.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848F1FEF1B82D913005D2978 /* Priest.jpg */; };
+		848F1FF91B82D913005D2978 /* Rogue.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848F1FF01B82D913005D2978 /* Rogue.jpg */; };
+		848F1FFA1B82D913005D2978 /* Shaman.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848F1FF11B82D913005D2978 /* Shaman.jpg */; };
+		848F1FFB1B82D913005D2978 /* Warlock.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 848F1FF21B82D913005D2978 /* Warlock.jpeg */; };
+		848F1FFC1B82D913005D2978 /* Warrior.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 848F1FF31B82D913005D2978 /* Warrior.jpg */; };
+		849D37A21BAA3A5000850C79 /* DeckViewTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 849D37A11BAA3A5000850C79 /* DeckViewTableViewController.m */; };
+		84A8F00E1B82944E00A1F39A /* STSearchTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84A8F00D1B82944E00A1F39A /* STSearchTableViewController.m */; };
+		84B0DEE41BA21E4200DBA10F /* refineSearchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B0DEE31BA21E4200DBA10F /* refineSearchViewController.m */; };
+		84DDFB491BA61FB200E68928 /* DeckEditorTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84DDFB481BA61FB200E68928 /* DeckEditorTableViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		841775201B26800400200722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 841774FE1B26800300200722 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 841775051B26800300200722;
+			remoteInfo = STHearthstoneDeckCompainion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8403E53A1B874C1800A85F9A /* STjsonData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STjsonData.h; sourceTree = "<group>"; };
+		8403E53B1B874C1800A85F9A /* STjsonData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STjsonData.m; sourceTree = "<group>"; };
+		841775061B26800300200722 /* STHearthstoneDeckCompainion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STHearthstoneDeckCompainion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8417750A1B26800300200722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8417750B1B26800300200722 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8417750D1B26800300200722 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8417750E1B26800300200722 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		841775141B26800300200722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		841775161B26800300200722 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		841775191B26800300200722 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		8417751F1B26800400200722 /* STHearthstoneDeckCompainionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STHearthstoneDeckCompainionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		841775241B26800400200722 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841775251B26800400200722 /* STHearthstoneDeckCompainionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STHearthstoneDeckCompainionTests.m; sourceTree = "<group>"; };
+		8417752F1B26804B00200722 /* STHsCardData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STHsCardData.h; sourceTree = "<group>"; };
+		841775301B26804B00200722 /* STHsCardData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STHsCardData.m; sourceTree = "<group>"; };
+		841775321B268CED00200722 /* AllSets.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = AllSets.json; path = ../../../../Downloads/AllSets.json; sourceTree = "<group>"; };
+		844DEC011BAD141C00A249F1 /* CustomCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		844DEC031BAD16B200A249F1 /* CustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
+		844DEC041BAD16B200A249F1 /* CustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
+		84789FC51BB0ED1F00544116 /* DeckLibraryTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckLibraryTableViewController.h; sourceTree = "<group>"; };
+		84789FC61BB0ED1F00544116 /* DeckLibraryTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckLibraryTableViewController.m; sourceTree = "<group>"; };
+		848696201B82723900D7E9A4 /* STDeckClassSelectTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = STDeckClassSelectTableViewController.h; path = ../STDeckClassSelectTableViewController.h; sourceTree = "<group>"; };
+		848696211B82723900D7E9A4 /* STDeckClassSelectTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = STDeckClassSelectTableViewController.m; path = ../STDeckClassSelectTableViewController.m; sourceTree = "<group>"; };
+		848F1FEB1B82D913005D2978 /* Druid.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Druid.jpeg; sourceTree = "<group>"; };
+		848F1FEC1B82D913005D2978 /* Hunter.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hunter.png; sourceTree = "<group>"; };
+		848F1FED1B82D913005D2978 /* mage.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = mage.jpg; sourceTree = "<group>"; };
+		848F1FEE1B82D913005D2978 /* Paladin.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Paladin.jpeg; sourceTree = "<group>"; };
+		848F1FEF1B82D913005D2978 /* Priest.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Priest.jpg; sourceTree = "<group>"; };
+		848F1FF01B82D913005D2978 /* Rogue.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Rogue.jpg; sourceTree = "<group>"; };
+		848F1FF11B82D913005D2978 /* Shaman.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Shaman.jpg; sourceTree = "<group>"; };
+		848F1FF21B82D913005D2978 /* Warlock.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Warlock.jpeg; sourceTree = "<group>"; };
+		848F1FF31B82D913005D2978 /* Warrior.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Warrior.jpg; sourceTree = "<group>"; };
+		849D37A01BAA3A5000850C79 /* DeckViewTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckViewTableViewController.h; sourceTree = "<group>"; };
+		849D37A11BAA3A5000850C79 /* DeckViewTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckViewTableViewController.m; sourceTree = "<group>"; };
+		84A8F00C1B82944E00A1F39A /* STSearchTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = STSearchTableViewController.h; sourceTree = "<group>"; };
+		84A8F00D1B82944E00A1F39A /* STSearchTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = STSearchTableViewController.m; sourceTree = "<group>"; };
+		84B0DEE21BA21E4200DBA10F /* refineSearchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = refineSearchViewController.h; sourceTree = "<group>"; };
+		84B0DEE31BA21E4200DBA10F /* refineSearchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = refineSearchViewController.m; sourceTree = "<group>"; };
+		84DDFB471BA61FB200E68928 /* DeckEditorTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeckEditorTableViewController.h; sourceTree = "<group>"; };
+		84DDFB481BA61FB200E68928 /* DeckEditorTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeckEditorTableViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		841775031B26800300200722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417751C1B26800400200722 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		841774FD1B26800300200722 = {
+			isa = PBXGroup;
+			children = (
+				841775081B26800300200722 /* STHearthstoneDeckCompainion */,
+				841775221B26800400200722 /* STHearthstoneDeckCompainionTests */,
+				841775071B26800300200722 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		841775071B26800300200722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				841775061B26800300200722 /* STHearthstoneDeckCompainion.app */,
+				8417751F1B26800400200722 /* STHearthstoneDeckCompainionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		841775081B26800300200722 /* STHearthstoneDeckCompainion */ = {
+			isa = PBXGroup;
+			children = (
+				8417750D1B26800300200722 /* AppDelegate.h */,
+				8417750E1B26800300200722 /* AppDelegate.m */,
+				848A37971BA767C700E5BDFB /* Deck Editor */,
+				849D379E1BA98C4000850C79 /* Search */,
+				849D379F1BA98C8C00850C79 /* Card Data */,
+				84789FC81BB1016B00544116 /* Custom Cell */,
+				841775131B26800300200722 /* Main.storyboard */,
+				841775161B26800300200722 /* Images.xcassets */,
+				841775181B26800300200722 /* LaunchScreen.xib */,
+				848F1FEA1B82D913005D2978 /* HS hero Images */,
+				841775091B26800300200722 /* Supporting Files */,
+			);
+			path = STHearthstoneDeckCompainion;
+			sourceTree = "<group>";
+		};
+		841775091B26800300200722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841775321B268CED00200722 /* AllSets.json */,
+				8417750A1B26800300200722 /* Info.plist */,
+				8417750B1B26800300200722 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		841775221B26800400200722 /* STHearthstoneDeckCompainionTests */ = {
+			isa = PBXGroup;
+			children = (
+				841775251B26800400200722 /* STHearthstoneDeckCompainionTests.m */,
+				841775231B26800400200722 /* Supporting Files */,
+			);
+			path = STHearthstoneDeckCompainionTests;
+			sourceTree = "<group>";
+		};
+		841775231B26800400200722 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				841775241B26800400200722 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84789FC81BB1016B00544116 /* Custom Cell */ = {
+			isa = PBXGroup;
+			children = (
+				844DEC011BAD141C00A249F1 /* CustomCell.xib */,
+				844DEC031BAD16B200A249F1 /* CustomCell.h */,
+				844DEC041BAD16B200A249F1 /* CustomCell.m */,
+			);
+			name = "Custom Cell";
+			sourceTree = "<group>";
+		};
+		848A37971BA767C700E5BDFB /* Deck Editor */ = {
+			isa = PBXGroup;
+			children = (
+				84789FC51BB0ED1F00544116 /* DeckLibraryTableViewController.h */,
+				84789FC61BB0ED1F00544116 /* DeckLibraryTableViewController.m */,
+				848696201B82723900D7E9A4 /* STDeckClassSelectTableViewController.h */,
+				848696211B82723900D7E9A4 /* STDeckClassSelectTableViewController.m */,
+				84DDFB471BA61FB200E68928 /* DeckEditorTableViewController.h */,
+				84DDFB481BA61FB200E68928 /* DeckEditorTableViewController.m */,
+				849D37A01BAA3A5000850C79 /* DeckViewTableViewController.h */,
+				849D37A11BAA3A5000850C79 /* DeckViewTableViewController.m */,
+			);
+			name = "Deck Editor";
+			sourceTree = "<group>";
+		};
+		848F1FEA1B82D913005D2978 /* HS hero Images */ = {
+			isa = PBXGroup;
+			children = (
+				848F1FEB1B82D913005D2978 /* Druid.jpeg */,
+				848F1FEC1B82D913005D2978 /* Hunter.png */,
+				848F1FED1B82D913005D2978 /* mage.jpg */,
+				848F1FEE1B82D913005D2978 /* Paladin.jpeg */,
+				848F1FEF1B82D913005D2978 /* Priest.jpg */,
+				848F1FF01B82D913005D2978 /* Rogue.jpg */,
+				848F1FF11B82D913005D2978 /* Shaman.jpg */,
+				848F1FF21B82D913005D2978 /* Warlock.jpeg */,
+				848F1FF31B82D913005D2978 /* Warrior.jpg */,
+			);
+			path = "HS hero Images";
+			sourceTree = "<group>";
+		};
+		849D379E1BA98C4000850C79 /* Search */ = {
+			isa = PBXGroup;
+			children = (
+				84B0DEE21BA21E4200DBA10F /* refineSearchViewController.h */,
+				84B0DEE31BA21E4200DBA10F /* refineSearchViewController.m */,
+				84A8F00C1B82944E00A1F39A /* STSearchTableViewController.h */,
+				84A8F00D1B82944E00A1F39A /* STSearchTableViewController.m */,
+			);
+			name = Search;
+			sourceTree = "<group>";
+		};
+		849D379F1BA98C8C00850C79 /* Card Data */ = {
+			isa = PBXGroup;
+			children = (
+				8417752F1B26804B00200722 /* STHsCardData.h */,
+				841775301B26804B00200722 /* STHsCardData.m */,
+				8403E53A1B874C1800A85F9A /* STjsonData.h */,
+				8403E53B1B874C1800A85F9A /* STjsonData.m */,
+			);
+			name = "Card Data";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		841775051B26800300200722 /* STHearthstoneDeckCompainion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 841775291B26800400200722 /* Build configuration list for PBXNativeTarget "STHearthstoneDeckCompainion" */;
+			buildPhases = (
+				841775021B26800300200722 /* Sources */,
+				841775031B26800300200722 /* Frameworks */,
+				841775041B26800300200722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STHearthstoneDeckCompainion;
+			productName = STHearthstoneDeckCompainion;
+			productReference = 841775061B26800300200722 /* STHearthstoneDeckCompainion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8417751E1B26800400200722 /* STHearthstoneDeckCompainionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8417752C1B26800400200722 /* Build configuration list for PBXNativeTarget "STHearthstoneDeckCompainionTests" */;
+			buildPhases = (
+				8417751B1B26800400200722 /* Sources */,
+				8417751C1B26800400200722 /* Frameworks */,
+				8417751D1B26800400200722 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				841775211B26800400200722 /* PBXTargetDependency */,
+			);
+			name = STHearthstoneDeckCompainionTests;
+			productName = STHearthstoneDeckCompainionTests;
+			productReference = 8417751F1B26800400200722 /* STHearthstoneDeckCompainionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		841774FE1B26800300200722 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Steve;
+				TargetAttributes = {
+					841775051B26800300200722 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					8417751E1B26800400200722 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 841775051B26800300200722;
+					};
+				};
+			};
+			buildConfigurationList = 841775011B26800300200722 /* Build configuration list for PBXProject "STHearthstoneDeckCompainion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 841774FD1B26800300200722;
+			productRefGroup = 841775071B26800300200722 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				841775051B26800300200722 /* STHearthstoneDeckCompainion */,
+				8417751E1B26800400200722 /* STHearthstoneDeckCompainionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		841775041B26800300200722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				848F1FF41B82D913005D2978 /* Druid.jpeg in Resources */,
+				848F1FF61B82D913005D2978 /* mage.jpg in Resources */,
+				844DEC021BAD141C00A249F1 /* CustomCell.xib in Resources */,
+				841775331B268CED00200722 /* AllSets.json in Resources */,
+				848F1FF91B82D913005D2978 /* Rogue.jpg in Resources */,
+				848F1FFC1B82D913005D2978 /* Warrior.jpg in Resources */,
+				841775151B26800300200722 /* Main.storyboard in Resources */,
+				848F1FF71B82D913005D2978 /* Paladin.jpeg in Resources */,
+				848F1FF51B82D913005D2978 /* Hunter.png in Resources */,
+				848F1FF81B82D913005D2978 /* Priest.jpg in Resources */,
+				8417751A1B26800300200722 /* LaunchScreen.xib in Resources */,
+				848F1FFA1B82D913005D2978 /* Shaman.jpg in Resources */,
+				848F1FFB1B82D913005D2978 /* Warlock.jpeg in Resources */,
+				841775171B26800300200722 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417751D1B26800400200722 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		841775021B26800300200722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84A8F00E1B82944E00A1F39A /* STSearchTableViewController.m in Sources */,
+				848696221B82723900D7E9A4 /* STDeckClassSelectTableViewController.m in Sources */,
+				8417750F1B26800300200722 /* AppDelegate.m in Sources */,
+				8417750C1B26800300200722 /* main.m in Sources */,
+				844DEC051BAD16B200A249F1 /* CustomCell.m in Sources */,
+				84B0DEE41BA21E4200DBA10F /* refineSearchViewController.m in Sources */,
+				849D37A21BAA3A5000850C79 /* DeckViewTableViewController.m in Sources */,
+				841775311B26804B00200722 /* STHsCardData.m in Sources */,
+				8403E53C1B874C1800A85F9A /* STjsonData.m in Sources */,
+				84DDFB491BA61FB200E68928 /* DeckEditorTableViewController.m in Sources */,
+				84789FC71BB0ED1F00544116 /* DeckLibraryTableViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8417751B1B26800400200722 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				841775261B26800400200722 /* STHearthstoneDeckCompainionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		841775211B26800400200722 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 841775051B26800300200722 /* STHearthstoneDeckCompainion */;
+			targetProxy = 841775201B26800400200722 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		841775131B26800300200722 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841775141B26800300200722 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		841775181B26800300200722 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				841775191B26800300200722 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		841775271B26800400200722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		841775281B26800400200722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8417752A1B26800400200722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STHearthstoneDeckCompainion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8417752B1B26800400200722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = STHearthstoneDeckCompainion/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8417752D1B26800400200722 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = STHearthstoneDeckCompainionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STHearthstoneDeckCompainion.app/STHearthstoneDeckCompainion";
+			};
+			name = Debug;
+		};
+		8417752E1B26800400200722 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = STHearthstoneDeckCompainionTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "me.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STHearthstoneDeckCompainion.app/STHearthstoneDeckCompainion";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		841775011B26800300200722 /* Build configuration list for PBXProject "STHearthstoneDeckCompainion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				841775271B26800400200722 /* Debug */,
+				841775281B26800400200722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		841775291B26800400200722 /* Build configuration list for PBXNativeTarget "STHearthstoneDeckCompainion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417752A1B26800400200722 /* Debug */,
+				8417752B1B26800400200722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8417752C1B26800400200722 /* Build configuration list for PBXNativeTarget "STHearthstoneDeckCompainionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8417752D1B26800400200722 /* Debug */,
+				8417752E1B26800400200722 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 841774FE1B26800300200722 /* Project object */;
+}
