@@ -17,4 +17,4 @@ TODO:
 -multiple copies of a card should appear with a 2 by their name in deck viewer
 -Fix segmented Controls to store only last value 
 -Implement lazy load
--Create UI
+-Create UI 
